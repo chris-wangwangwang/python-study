@@ -88,5 +88,9 @@ class People(object):
 
 run_twice(People())
 
+#多继承
+class Dog(Mammal, Runnable):
+    pass
+
 
         
